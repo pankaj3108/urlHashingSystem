@@ -1,6 +1,6 @@
 # How to Use this application
 
-1) you have to clone this repository in your local system.
+1) You have to clone this repository in your local system.
 cloning: git clone https://github.com/pankaj3108/urlHashingSystem/
 
 Now to set up this application you have to do some changes:
