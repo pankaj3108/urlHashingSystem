@@ -26,11 +26,11 @@ public class UrlController {
     }
 
     @GetMapping("/{hash_key}")
-    public URL getUrl(@PathVariable("hash_key") String hash) {
+    public String getUrl(@PathVariable("hash_key") String hash) {
 
         URL urlBody = this.urlService.getURLByHash(hash);
 
-        return urlBody;
+        return urlBody.getLongUrl();
 
     }
 

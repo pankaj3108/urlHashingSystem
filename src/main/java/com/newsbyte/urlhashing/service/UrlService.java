@@ -46,7 +46,7 @@ public class UrlService {
 
         Random random = new Random();
 
-        for(int i=0;i<6;i++) {
+        for(int i=0;i<hash.length;i++) {
 
             int chIdx = random.nextInt(characters.length());
 
@@ -54,12 +54,12 @@ public class UrlService {
 
         }
 
-        String ans = "";
+        String hashCode = "";
 
         for(char h : hash)
-            ans += h;
+            hashCode += h;
 
-        return ans;
+        return hashCode;
 
     }
 

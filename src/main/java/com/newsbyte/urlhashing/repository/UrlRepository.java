@@ -9,7 +9,7 @@ import java.util.Optional;
 @Repository
 public interface UrlRepository extends JpaRepository<URL, String> {
 
-    public Optional<URL> findByUrlHashKey(String hash);
+    Optional<URL> findByUrlHashKey(String hash);
 
     void deleteByUrlHashKey(String hash);
 }
