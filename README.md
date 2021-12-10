@@ -3,7 +3,7 @@
 ########################### Architecture #################################
 
 #Objective: 
-Main function of this URL hashing System is to convert long url to short url which helps marketing team to manages url's in effetive way.
+Main function of this URL hashing System is to convert long url to short url which helps marketing team to manages url's in effetive way. It has expiary date feature where generated url will be valid upto 7 days, after this url will be deleted.
 
 #Overview:
 I have built this URL Hashing System using Java8 as server side language. used Spring boot framework for development of REST API.
