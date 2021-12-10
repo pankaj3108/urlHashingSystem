@@ -12,7 +12,7 @@ which will generate 35^6 keys which is approximetaly 10^9 keys which 1000M ~ 1B 
 #Total estimated queries per second for system:
 10 million/(30 days*24 hours*3600 seconds) = ~ 4 URLs/second
 
-#Considering 100:1 read/write ratio, URLs redirection will be:
+#Considering 10:1 read/write ratio, URLs redirection will be:
 10*4 = 40/s
 
 I am assuming that the Long Url which will be stored in the database will itself conatin UTM tracking metadata.
